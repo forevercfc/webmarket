@@ -13,7 +13,13 @@
 		<tracking-mode>COOKIE</tracking-mode>
 		<session-timeout>800</session-timeout>
 	</session-config>
-
+	
+	
+<!--예외설정  -->
+	<error-page>
+		<error-code>404</error-code>
+		<location>/step11/exceptionNopage.jsp</location>
+	</error-page>
 
 
 </web-app>
